@@ -22,6 +22,11 @@ $ npm install @2players/dollar1-unistroke-recognizer
 import GestureRecognizer from '@2players/dollar1-unistroke-recognizer'
 
 const gr = new GestureRecognizer()
+
+/**
+ * recognize gestures
+ *
+ */
 const stroke = [
   { x: 310, y: 230 },
   { x: 333, y: 186 },
@@ -31,7 +36,35 @@ const stroke = [
   { x: 418, y: 186 },
 ]
 
-const strokeName = gr.recognize(stroke, true)
-console.log(strokeName)
+gr.recognize(stroke, true)
 // 'zig-zag'
+
+/**
+ * add custom gesture
+ *
+ * If you don't know how to get enough points, you can try following app:
+ *
+ *   https://2players.github.io/unistroke-creator/
+ *
+ */
+const customStroke = [
+  { x: 0, y: 0 },
+  // ... more points
+]
+gr.add('a-name', customStroke)
+
+/**
+ * reset gestures
+ *
+ * This will only preserve default gestures.
+ */
+gr.reset()
 ```
+
+## Related
+
+- [unistroke-creator](https://github.com/2players/unistroke-creator)
+
+## License
+
+MIT © 2Players Studio
