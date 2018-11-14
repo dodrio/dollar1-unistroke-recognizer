@@ -23,7 +23,9 @@
   "keywords": [
     ""
   ],
-  "dependencies": {},
+  "dependencies": {
+    "core-js": "^2.5.7"
+  },
   "devDependencies": {
     "@babel/cli": "^7.0.0",
     "@babel/core": "^7.0.0",
