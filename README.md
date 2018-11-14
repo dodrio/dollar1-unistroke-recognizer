@@ -1,5 +1,6 @@
 # dollar1-unistroke-recognizer
 
+[![$1 Unistroke Recognizer Version](https://img.shields.io/badge/%241%20Unistroke%20Recognizer-July%2014%202018-brightgreen.svg)](https://depts.washington.edu/madlab/proj/dollar/dollar.js)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 [![Module System](https://img.shields.io/badge/module%20system-ES%20Module-brightgreen.svg)](#)
 [![Dependency Status](https://img.shields.io/david/2players/dollar1-unistroke-recognizer.svg)](#)
