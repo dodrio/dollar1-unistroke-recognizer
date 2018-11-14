@@ -1,7 +1,7 @@
 {
   "name": "@2players/dollar1-unistroke-recognizer",
   "description": "A wrapper of $1 Unistroke Recognizer.",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "repository": "2players/dollar1-unistroke-recognizer",
   "engines": {
     "node": ">=8"
