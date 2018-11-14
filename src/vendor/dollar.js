@@ -67,7 +67,7 @@
 //
 // Point class
 //
-function Point(x, y) {
+export function Point(x, y) {
   // constructor
   this.X = x
   this.Y = y
