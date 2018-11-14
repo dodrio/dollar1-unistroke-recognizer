@@ -1,5 +1,5 @@
 {
-  "name": "dollar1-unistroke-recognizer",
+  "name": "@2players/dollar1-unistroke-recognizer",
   "description": "A wrapper of $1 Unistroke Recognizer.",
   "version": "0.1.0",
   "repository": "2players/dollar1-unistroke-recognizer",
