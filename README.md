@@ -6,7 +6,7 @@
 [![Dependency Status](https://img.shields.io/david/2players/dollar1-unistroke-recognizer.svg)](#)
 [![DevDependency Status](https://img.shields.io/david/2players/dollar1-unistroke-recognizer.svg)](#)
 [![Travis Build Status](https://img.shields.io/travis/2players/dollar1-unistroke-recognizer.svg)](#)
-[![NPM Downloads](https://img.shields.io/npm/dm/dollar1-unistroke-recognizer.svg)](#)
+[![NPM Downloads](https://img.shields.io/npm/dm/@2players/dollar1-unistroke-recognizer.svg)](#)
 
 > A wrapper of [\$1 Unistroke Recognizer](https://depts.washington.edu/madlab/proj/dollar/index.html).
 
