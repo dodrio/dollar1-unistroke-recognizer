@@ -7,38 +7,30 @@
 [![Travis Build Status](https://img.shields.io/travis/2players/dollar1-unistroke-recognizer.svg)](#)
 [![NPM Downloads](https://img.shields.io/npm/dm/dollar1-unistroke-recognizer.svg)](#)
 
-> JavaScript port of \$1 Unistroke Recognizer.
+> A wrapper of [\$1 Unistroke Recognizer](https://depts.washington.edu/madlab/proj/dollar/index.html).
 
 ## Install
 
 ```
-$ npm install dollar1-unistroke-recognizer
+$ npm install @2players/dollar1-unistroke-recognizer
 ```
 
 ## Usage
 
 ```js
-import dollar1UnistrokeRecognizer from 'dollar1-unistroke-recognizer'
+import GestureRecognizer from '@2players/dollar1-unistroke-recognizer'
 
-dollar1UnistrokeRecognizer('unicorns')
-//=> 'unicorns & rainbows'
+const gr = new GestureRecognizer()
+const stroke = [
+  { x: 310, y: 230 },
+  { x: 333, y: 186 },
+  { x: 356, y: 215 },
+  { x: 375, y: 186 },
+  { x: 399, y: 216 },
+  { x: 418, y: 186 },
+]
+
+const strokeName = gr.recognize(stroke, true)
+console.log(strokeName)
+// 'zig-zag'
 ```
-
-## API
-
-### dollar1UnistrokeRecognizer(input, [options])
-
-#### input
-
-Type: `string`
-
-Lorem ipsum.
-
-#### options
-
-##### foo
-
-Type: `boolean`<br>
-Default: `false`
-
-Lorem ipsum.
