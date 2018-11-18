@@ -20,7 +20,11 @@ $ npm install @2players/dollar1-unistroke-recognizer
 ```js
 import GestureRecognizer from '@2players/dollar1-unistroke-recognizer'
 
+// create recognizer with default strokes
 const gr = new GestureRecognizer()
+
+// create recognizer without default strokes
+const gr = new GestureRecognizer({ defaultStrokes: false })
 
 /**
  * recognize gestures

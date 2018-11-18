@@ -4,8 +4,8 @@ const pointMaker = ({ x, y }) => new Point(x, y)
 
 // wrap DollarRecognizer's API in JavaScript style
 class GestureRecognizer {
-  constructor() {
-    this.dollarRecognizer = new DollarRecognizer()
+  constructor({ defaultStrokes = true } = {}) {
+    this.dollarRecognizer = new DollarRecognizer({ defaultStrokes })
   }
 
   recognize(points, useProtractor) {
