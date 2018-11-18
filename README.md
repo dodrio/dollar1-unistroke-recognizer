@@ -28,7 +28,6 @@ const gr = new GestureRecognizer({ defaultStrokes: false })
 
 /**
  * recognize gestures
- *
  */
 const stroke = [
   { x: 310, y: 230 },
@@ -48,7 +47,6 @@ gr.recognize(stroke, true)
  * If you don't know how to get enough points, you can try following app:
  *
  *   https://2players.github.io/unistroke-creator/
- *
  */
 const customStroke = [
   { x: 0, y: 0 },
