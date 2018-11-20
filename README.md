@@ -57,7 +57,7 @@ gr.add('a-name', customStroke)
 /**
  * reset gestures
  *
- * This will only preserve default gestures.
+ * Remove all customized gestures.
  */
 gr.reset()
 ```
